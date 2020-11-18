@@ -7,6 +7,14 @@ function GenerateNewText() {
       "I will help you. I have spoken.",
       "I can bring you in warm, or I can bring you in cold.",
       "I like those odds.",
+      "Such a large bounty for such a small package.",
+      "Bad news. You can't live here anymore.",
+      "Don't Worry, Mandalorian, My Response time is quick than organics and I'm smarter, too.",
+      "That was unlpeasant. I'm sorry you had to see that.",
+      "I am Fulfilling my base function, To nurse and protect.",
+      "Some of my favorite people are Bounty Hunters.",
+      "If you’re asking if you can trust me, you cannot.",
+      "He just killed an officer for interrupting him, so this might take a while.",
       "I will initiate self-destruct.",
       "I’m a Mandalorian. Weapons are part of my religion.",
       "We have you 4 to 1. I like those odds.",
@@ -22,7 +30,7 @@ function GenerateNewText() {
       "I'll tell you where the rest of your kind are if you give me your shiny Beskar Armour.",
       "That is not Food! Don't do that Again!",
       "We've Trapped them in the Cargo Control Area Sir.",
-      "I gave you a 1000 Credits, THis was the best you could do?"
+      "I gave you a 1000 Credits, This was the best you could do?"
    ];
 }
 
@@ -36,7 +44,7 @@ GenerateNewText.prototype.getRandomSentence = function() {
 GenerateNewText.prototype.getParagraph = function() {
   let paragraph = "";
 
-  let minimumCharacterLength = 300;
+  let minimumCharacterLength = 350;
   let firstSentence = true;
   while (paragraph.length < minimumCharacterLength) {
     if (firstSentence) {
