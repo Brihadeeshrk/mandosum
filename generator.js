@@ -24,6 +24,7 @@ function GenerateNewText() {
       "Here’s What I’m Gonna Do. I’m Gonna Walk To My Ship, With The Kid, And You’re Gonna Let It Happen.",
       "No Questions Asked, That Is The Policy, Right?",
       "This is the way.",
+      "",
       "I would like to see the baby, It is Sleeping, We will all be quiet, Open the pram.",
       "Are Those X-Wings?",
       "Kill him and the Child.",
