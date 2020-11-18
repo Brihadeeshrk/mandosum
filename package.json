@@ -1,0 +1,14 @@
+{
+  "name": "mandosum",
+  "version": "1.0.0",
+  "description": "Lorem Ipsum Generator for 'The Mandalorian' Fans",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Briha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
